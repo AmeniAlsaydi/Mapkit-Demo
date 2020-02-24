@@ -49,5 +49,52 @@
             </objects>
             <point key="canvasLocation" x="-57.971014492753625" y="129.91071428571428"/>
         </scene>
+        <!--Location Detail View Controller-->
+        <scene sceneID="5QQ-CH-9SD">
+            <objects>
+                <viewController storyboardIdentifier="LocationDetailViewController" id="ahz-oL-1G6" customClass="LocationDetailViewController" customModule="Mapkit_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ovG-NW-MG4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ttJ-Eb-a8n">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="0ww-u9-znc">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rEX-Wp-BWl">
+                                            <rect key="frame" x="87" y="20" width="240" height="128"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="rEX-Wp-BWl" secondAttribute="height" multiplier="15:8" id="iqk-CG-fEb"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="rEX-Wp-BWl" firstAttribute="centerX" secondItem="0ww-u9-znc" secondAttribute="centerX" id="173-3s-7r5"/>
+                                        <constraint firstItem="rEX-Wp-BWl" firstAttribute="top" secondItem="0ww-u9-znc" secondAttribute="top" constant="20" id="1te-80-RTC"/>
+                                        <constraint firstItem="rEX-Wp-BWl" firstAttribute="width" secondItem="0ww-u9-znc" secondAttribute="height" multiplier="15:56" id="4Yv-kt-cre"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ttJ-Eb-a8n" firstAttribute="trailing" secondItem="fy9-fT-jgE" secondAttribute="trailing" id="Ez2-mx-eOw"/>
+                            <constraint firstAttribute="bottom" secondItem="ttJ-Eb-a8n" secondAttribute="bottom" id="HK4-Z9-iKo"/>
+                            <constraint firstItem="ttJ-Eb-a8n" firstAttribute="leading" secondItem="fy9-fT-jgE" secondAttribute="leading" id="YQP-Nq-KdK"/>
+                            <constraint firstItem="ttJ-Eb-a8n" firstAttribute="top" secondItem="ovG-NW-MG4" secondAttribute="top" id="yea-ro-Nql"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="fy9-fT-jgE"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="rEX-Wp-BWl" id="jNh-LI-21d"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2z0-Vc-VAg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="847.82608695652175" y="131.91964285714286"/>
+        </scene>
     </scenes>
 </document>

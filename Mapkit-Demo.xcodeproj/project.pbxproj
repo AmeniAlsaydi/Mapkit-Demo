@@ -14,6 +14,7 @@
 		B76B1DE32404207F0075A8E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B76B1DE22404207F0075A8E4 /* Assets.xcassets */; };
 		B76B1DE62404207F0075A8E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76B1DE42404207F0075A8E4 /* LaunchScreen.storyboard */; };
 		B76B1DEE2404209C0075A8E4 /* CoreLocationSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B1DED2404209C0075A8E4 /* CoreLocationSession.swift */; };
+		B76B1DF0240435470075A8E4 /* LocationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B76B1DEF240435470075A8E4 /* LocationDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B76B1DE52404207F0075A8E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B76B1DE72404207F0075A8E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B76B1DED2404209C0075A8E4 /* CoreLocationSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreLocationSession.swift; sourceTree = "<group>"; };
+		B76B1DEF240435470075A8E4 /* LocationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				B76B1DD92404207A0075A8E4 /* AppDelegate.swift */,
 				B76B1DDB2404207A0075A8E4 /* SceneDelegate.swift */,
 				B76B1DED2404209C0075A8E4 /* CoreLocationSession.swift */,
+				B76B1DEF240435470075A8E4 /* LocationDetailViewController.swift */,
 				B76B1DDD2404207A0075A8E4 /* MapViewController.swift */,
 				B76B1DDF2404207A0075A8E4 /* Main.storyboard */,
 				B76B1DE22404207F0075A8E4 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				B76B1DDA2404207A0075A8E4 /* AppDelegate.swift in Sources */,
 				B76B1DEE2404209C0075A8E4 /* CoreLocationSession.swift in Sources */,
 				B76B1DDC2404207A0075A8E4 /* SceneDelegate.swift in Sources */,
+				B76B1DF0240435470075A8E4 /* LocationDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
